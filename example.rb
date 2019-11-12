@@ -58,3 +58,15 @@ age = 23 + 1
 puts name + " " + last_name
 puts last_name
 puts age + 5
+
+#parallel variable assignment
+a = 11
+b = 21
+c = 31
+p a
+p b
+p c
+
+# the above can also be asssigned in parrallel as shown below (a lot cleaner)
+a, b, c = 11, 21, 31
+p a, b, c
