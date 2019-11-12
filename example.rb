@@ -48,3 +48,12 @@ puts "hello world" #this comment will get ignored
 stuf
 stuff
 =end
+
+
+# variables
+name = "Michael"
+last_name = "Osgood"
+handsome = true
+age = 23 + 1
+puts name + last_name
+puts last_name
