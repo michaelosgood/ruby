@@ -55,5 +55,6 @@ name = "Michael"
 last_name = "Osgood"
 handsome = true
 age = 23 + 1
-puts name + last_name
+puts name + " " + last_name
 puts last_name
+puts age + 5
