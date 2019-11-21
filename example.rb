@@ -70,3 +70,18 @@ p c
 # the above can also be asssigned in parrallel as shown below (a lot cleaner)
 a, b, c = 11, 21, 31
 p a, b, c
+
+
+# Constants are like variables however the values should not change
+# Must begin with a capitol letter
+# It's normal practive to capitolize the entire world
+NAME = "Michael"
+print NAME
+
+#Object Methods
+p "hello world".length
+p "hello world".upcase
+p "HELLO WORLD".downcase
+
+foo = "hello world"
+p foo.length
