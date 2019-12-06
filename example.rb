@@ -85,3 +85,9 @@ p "HELLO WORLD".downcase
 
 foo = "hello world"
 p foo.length
+
+#string interpolation
+n_name = "michael"
+n_age = 33
+puts "User string interpolation to displays variable within a string"
+puts "My name is #{n_name} and my age is #{n_age}"
