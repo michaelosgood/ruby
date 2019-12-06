@@ -1,6 +1,10 @@
 #The Gets Method
 # This won't work in Atom Text Editor
 # Will need to run in IRB using Terminal to run
+# To run in terminal,
+# 1) navigate to directory with this file name
+# 2) Type 'ruby gets_method.rb' to execcute this file
+
 
 puts "Hi, what's your name?"
 name = gets.chomp
