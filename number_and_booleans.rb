@@ -57,3 +57,14 @@ p pi.to_s
 
 # For converting values to the same value (i.e. string to a string) ruby returns a string
 p "3".to_s.class
+
+# Booleans - a data type that is either true or false
+handsome = true
+stupid = false
+
+p handsome.class
+
+
+# Boolean Methods
+p 1.next
+p 1.to_s
