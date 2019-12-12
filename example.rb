@@ -86,8 +86,22 @@ p "HELLO WORLD".downcase
 foo = "hello world"
 p foo.length
 
+<<<<<<< Updated upstream
 #string interpolation
 n_name = "michael"
 n_age = 33
 puts "User string interpolation to displays variable within a string"
 puts "My name is #{n_name} and my age is #{n_age}"
+=======
+# String Interpolation
+n_name = "Boris"
+age = 54
+p "Hi my name is #{n_name}"
+p "Can do math too #{1 + 1}"
+p "can also combine variables with values #{age * 2}"
+
+# Gets Methods
+# "Gets" gets input from a user
+# Always returns value in form of a String
+# open IRB in terminal
+>>>>>>> Stashed changes
