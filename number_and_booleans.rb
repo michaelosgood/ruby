@@ -68,3 +68,8 @@ p handsome.class
 # Boolean Methods
 p 1.next
 p 1.to_s
+
+# Methods that returns true or false if integer is odd/even
+# this boolean method does not work with floating point values
+p 10.odd?
+p 10.even?
