@@ -95,3 +95,11 @@ puts
 # Exceptions (returns true )
 p 5 == 5.0
 p 5.to_f == 5.0
+
+# Equality Operator 
+p 10 == 10
+
+# Inequality operator (both examples below return true)
+p 10 != "10"
+
+p "hello" != "Hello"
