@@ -103,3 +103,15 @@ p 10 == 10
 p 10 != "10"
 
 p "hello" != "Hello"
+
+# Less than Operator (returns true)
+p 5 < 10
+
+# Less than or equal to (returns true)
+p 5 <= 5
+
+# Greater than Operator (returns false)
+p 5 > 10
+
+# Greater than or equal to (returns false)
+p 8 >= 9
