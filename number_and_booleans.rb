@@ -115,3 +115,38 @@ p 5 > 10
 
 # Greater than or equal to (returns false)
 p 8 >= 9
+
+#assignment and reassignment of variables
+a = 10
+a = a + 12 # this can be thought of as  a = 10 + 12
+p a # returns 22
+
+#addition example
+b = 11
+b += 12  # same as writing: b = b + 12
+p b  #outputs 23
+
+#subtraction example
+c = 3
+c -= 2
+p c #outputs 1
+
+#multiplication
+d = 13
+d *= 13
+p d #outpus 169
+
+# division
+e = 9
+e /= 3 
+p e #outputs 3
+
+# Modulo
+f = 27
+f %= 5
+p f #outputs 2
+
+# To the power
+g = 2
+g **= 2 
+p g #outputs 4
