@@ -5,7 +5,7 @@
 # Can add a variable in the curly braces
 3.times { |counter| puts "We are on iteration number: #{counter}"}
 
-# user do/end when we want to repeat 
+# user do/end when we want to repeat
 3.times do
     puts "Michael rules!!"
     puts "I'm having so much fun learning RUBY!"
@@ -26,13 +26,13 @@ end
 end
 
 
-# Use the times method to output the first 
+# Use the times method to output the first
 # ten mulitpls of 3(3,6,9,12 ..30)
 10.times do |count| # count will start at 0
     puts "#{3 * (count + 1)}"
 end
 
-# Use the times method to output the first 
-# ten mulitpls of 3(3,6,9,12 ..30) 
+# Use the times method to output the first
+# ten mulitpls of 3(3,6,9,12 ..30)
 # this example will return the same results as the above example just written in one line
 10.times { |count| puts "#{ 3 * (count +1)}"}
