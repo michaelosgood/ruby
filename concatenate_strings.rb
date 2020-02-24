@@ -26,3 +26,11 @@ p "4: "+ my_first_name
 s = "string S "
 t = "string T"
 p "5: " + s << t << " tail end string"
+
+
+# Prepend method can be used to adding something to the beginning of a string
+word_a = "alpha "
+word_b = "beta "
+
+p word_b.prepend(word_a)
+# outputs "alpha beta"
